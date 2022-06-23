@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CountryInfo" max_length="40" name="x_817501_iplookup_countryinfo" type="collection">
+        <element label="Capital" max_length="40" name="capital" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Flag" max_length="40" name="flag" type="string"/>
+        <element label="Population" max_length="40" name="population" type="integer"/>
+    </element>
+</database>

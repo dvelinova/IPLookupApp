@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>geodata</name>
+        <rest_message_function display_value="GetIPInfo">7fdc6a282f189110ac894ae72799b69e</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 04:46:36</sys_created_on>
+        <sys_id>7af6b22c2f189110ac894ae72799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>geodata</sys_name>
+        <sys_package display_value="IPLookup" source="x_817501_iplookup">3b6c6a282f189110ac894ae72799b696</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">3b6c6a282f189110ac894ae72799b696</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_7af6b22c2f189110ac894ae72799b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 04:46:36</sys_updated_on>
+        <type>string</type>
+        <value>geo</value>
+    </sys_rest_message_fn_parameters>
+</record_update>
