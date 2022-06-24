@@ -53,8 +53,8 @@
 		var responseObj = json.parse(responseBody);
 //Set the value of City field on the IPAddressInfo record
 		current.capital = responseObj.capital;
-		current.population = responseObj.population;
-		current.flag = responseObj.flag;
+		//current.population = responseObj.population;
+		//current.flag = responseObj.flag;
 		gs.info("Capital = " + current.capital + ", Population = " + current.population + ", Flag = " + current.flag);
 		current.update();	
 		
@@ -71,7 +71,7 @@ catch(err) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e34ff4c52fd01110ac894ae72799b671</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Populate Country Info</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_817501_iplookup">3b6c6a282f189110ac894ae72799b696</sys_package>
@@ -79,7 +79,7 @@ catch(err) {
         <sys_scope display_value="IPLookup">3b6c6a282f189110ac894ae72799b696</sys_scope>
         <sys_update_name>sys_script_e34ff4c52fd01110ac894ae72799b671</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-23 09:42:50</sys_updated_on>
+        <sys_updated_on>2022-06-23 11:31:05</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
